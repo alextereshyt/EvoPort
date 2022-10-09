@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Evo</title>
+    <script src="main.js"></script>
+    <script src="objects.js"></script>
+</head>
+<body onload="drawer();">
+    <canvas id="mainCanvas" width="500" height="500">
+   
+    </canvas> 
+    <div class="control-panel">
+    <button class="button" onclick="createCell()">Create new cell</button>
+   
+    <select name="cells" id="cells">
+        <option value="Eater">Eater</option>
+        <option value="food">Producer</option>
+        <option value="trash">Trash</option>
+        <option value="tEater">Trash Eater</option>
+        <option value="hunter">Hunter</option>
+      </select>
+      <br>
+      <pre class="log">
+      </pre> 
+ 
+        <input  type="checkbox" id="isTrash" name="trash" checked>
+        <label for="trash">spawn trash</label>
+           <br>
+        <input  type="checkbox" id="isFood" name="food" checked>
+        <label for="food">spawn food</label>
+  
+      <div>
+      <button class="control-button" onclick="pause()">◼</button>
+      <button class="control-button" id="faster" onclick="faster()">▶▶</button>
+      <button class="control-button" onclick="clearCells()" >X</button>
+     </div>  
+    </div>
+
+</body>
+
+</html>

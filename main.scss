@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.button {
+  font-family: 'VT323', monospace;
+    background-color: #636E72; 
+    border: none;
+    color: white;
+    
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 2px solid #636E72; 
+  }
+  .button:hover{
+    border-color: white;
+  }
+
+.control-panel{
+position: absolute;
+top: 0;
+right: 0;
+background-color: #DFE6E9;
+margin: 10px;
+padding: 10px;
+width: 300px;
+border-radius:10px;
+opacity: 0.8;
+
+}
+
+
+body{
+    font-family: 'VT323', monospace;
+
+}
+
+#cells{
+padding: 8px;
+background-color: #636E72; 
+font-family: 'VT323', monospace;
+color: white;
+font-size: 22px;
+border-radius:5px;
+}
+
+.log{
+  font-family: 'VT323', monospace;
+  font-size: 22px;
+  margin: 10;
+}
+
+.control-button{
+  font-family: 'VT323', monospace;
+  font-size: 22px;
+  background-color: #636E72; 
+  color: white;
+  border-radius:5px;
+  border: 2px solid #636E72;
+   width: 35px;
+  height: 35px;
+}
+
+.control-button:hover{
+  border: 2px solid white;
+ 
+}
+
+#faster{
+  width: 50px;
+}
